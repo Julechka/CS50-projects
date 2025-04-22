@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: runtime for random, reverse and sorted inputs are approximately the same
+
+sort2 uses: merge sort
+
+How do you know?: runtime is minimal between all 3 and it is not much differs for 5000 and 50000 random numbers
+
+sort3 uses: selection sort
+
+How do you know?: runtime is the largest among all 3 algorithms and runtime for sorted input is much less for random input of the same size
