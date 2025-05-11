@@ -82,6 +82,7 @@ bool load(const char *dictionary)
         if (new_node == NULL)
         {
             fclose(source);
+            unload();
             return false;
         }
 
