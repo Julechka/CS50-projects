@@ -80,7 +80,10 @@ bool load(const char *dictionary)
         // Allocate a memory for a new node
         node *new_node = malloc(sizeof(node));
         if (new_node == NULL)
+        {
+            fclose(source);
             return false;
+        }
 
         // Create a new node for each word
         strcpy(new_node->word, word);
